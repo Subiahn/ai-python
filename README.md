@@ -39,8 +39,16 @@ ai-python/
 
 ## Next Steps
 
-1. Titanic dataset 준비
-2. `notebooks/01_titanic_eda.ipynb` 생성
-3. `pandas`로 데이터 불러오기
-4. `head()`, `info()`, `describe()` 결과 정리
+1. `notebooks/01_titanic_eda.ipynb` 실행
+2. `head()`, `info()`, `describe()` 결과 직접 확인
+3. 성별에 따른 생존율 분석
+4. 객실 등급에 따른 생존율 분석
 
+## Environment
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+jupyter notebook
+```
